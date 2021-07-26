@@ -32,12 +32,11 @@ function handleClick(e) {
 
 
   placeMark(cell, currentClass);
+
   if (checkWin(currentClass)) {
     endGame(false)
   }
-  //check win
-  //check draw
-  //switch turns
+
   swapTurns();
   setBoardHoverClass()
 }
